@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    position: relative;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f6b;
+}
+
+#text {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid #333;
+}
+
+#ball {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease;
+}
